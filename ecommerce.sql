@@ -53,3 +53,13 @@ foreign key (category_id) references category(id)
 ON DELETE CASCADE;
 
 
+-- insert values into category table
+INSERT INTO category (name) 
+VALUES 
+  ('Electronics'),
+  ('Fashion'),
+  ('Books'),
+  ('Home & Kitchen'),
+  ('Toys & Games');
+
+
